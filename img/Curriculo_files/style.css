@@ -1,0 +1,138 @@
+:root {
+    --raleway:'Raleway', sans-serif;
+    --cinza-escuro: #464646;
+    --azul-claro:#EAF2FD;
+    --gelo:#ffffff;
+    --azul-botao: #2A7AE4;
+}
+body {
+    background-color: #E5E5E5;
+    font-family:var(--raleway);
+    text-align: justify;
+}
+.container {
+    padding: 2%;
+}
+.fonte-leve {
+    font-weight: 400;
+    font-size: .8rem;
+}
+.font-pesado {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--cinza-escuro);
+}
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: .5rem;
+    
+}
+.botao-link {
+    padding: .3rem;
+    color: var(--azul-botao);
+    border: solid 2px var(--azul-botao);
+}
+.apresentacao__email{
+margin-top: 0.6rem;
+}
+.introducao__imagem {
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: .3rem;
+}
+.introducao__social {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: .4rem 0;
+}
+.sobre {
+    background-color: var(--azul-claro);
+    width: 100vw;
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skills__items {
+    background-color: var(--gelo);
+    width: 30%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hobbies__items {
+    background-color: var(--gelo);
+    width: 30%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+.formacoes {
+    background-color: var(--azul-claro);
+}
+.formacoes__imagens {
+    margin:1rem 10%;
+    width: 80%;
+}
+.experiencias {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.experiencias p {
+    margin-bottom: 10px;
+}
+.experiencias__imagens {
+    margin:1rem 10%;
+    width: 80%;
+}
+.contato {
+    background-color: var(--azul-claro);
+    display: flex;
+    flex-direction: column;
+}
+.contato input {
+    border: none;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.contato label {
+    font-weight: 400;
+    color: var(--azul-botao);
+}
+.contato textarea {
+    border: none;
+    resize: none;
+    margin-top: 1rem;
+    width: 80%;
+    border-radius: 5px;
+}
+.botao-contato {
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    color: var(--gelo);
+    background-color: var(--azul-botao);
+    margin-top: 1rem;
+    width: 50%;
+}
+footer {
+    background-color: var(--gelo);
+    text-align: center;
+    padding: 2rem;
+}

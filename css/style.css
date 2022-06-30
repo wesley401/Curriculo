@@ -1,0 +1,180 @@
+:root {
+    --raleway:'Raleway', sans-serif;
+    --cinza-escuro: #464646;
+    --azul-claro:#EAF2FD;
+    --gelo:#ffffff;
+    --azul-botao: #2A7AE4;
+}
+body {
+    background-color: #E5E5E5;
+    font-family:var(--raleway);
+    text-align: center;
+}
+.container {
+    padding: 2%;
+}
+.fonte-leve {
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.font-pesado {
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    margin-bottom: 0.5rem;
+}
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.apresentacao__nome {
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+.apresentacao__email{
+margin-top: 0.6rem;
+}
+.introducao__imagem {
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: .3rem;
+}
+.introducao__social {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: .4rem 0;
+}
+.sobre {
+    background-color: var(--azul-claro);
+    width: 100vw;
+    text-align:start;
+    
+}
+.sobre__texto {
+    margin-bottom: 1rem;
+}
+.skills, .hobbies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skills__items, .hobbies__items {
+    background-color: var(--gelo);
+    width: 30%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+.skills__items:hover, .hobbies__items:hover {
+    border-bottom: solid var(--azul-botao);
+}
+.formacoes {
+    background-color: var(--azul-claro);
+}
+.formacoes__conteudo {
+    justify-content: space-between;
+}
+.formacoes__imagens {
+    margin:1rem 10%;
+    width: 80%;
+}
+.experiencias {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.experiencias p {
+    margin-bottom: 30px;
+}
+.experiencias__imagens {
+    max-width: 700px;
+    margin:1rem 10%;
+    width: 80%;
+}
+.contato {
+    background-color: var(--azul-claro);
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.contato__entrada {
+    border: none;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.contato__entrada:hover,  .contato__entrada.ativo {
+    border-bottom: 3px solid var(--azul-botao);
+}
+.contato__texto {
+    font-weight: 400;
+    color: var(--azul-botao);
+}
+.contato__textoarea {
+    border: none;
+    resize: none;
+    margin-top: 1rem;
+    width: 80%;
+    border-radius: 5px;
+}
+.botao-link {
+    padding: .3rem;
+    color: var(--azul-botao);
+    border: solid 2px var(--azul-botao);
+}
+.botao-demo {
+    border: none;
+    padding: .4rem;
+    color: var(--gelo);
+    background-color: var(--azul-botao);
+}
+.botao-contato {
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    color: var(--gelo);
+    background-color: var(--azul-botao);
+    margin-top: 1rem;
+    width: 50%;
+}
+footer {
+    background-color: var(--gelo);
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .introducao {
+        display: inline-block;
+        text-align: start;
+    }
+    .introducao__imagem{
+    float: right;
+    margin-left: 2rem;
+
+    }
+    .introducao__social {
+        margin-top: 2.5rem;
+    }
+    .skills__items,.hobbies__items {
+        width: 20%;
+    }
+    .formacoes__conteudo {
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:1024px) {
+    body {
+        font-size: 2rem;
+    }
+    .introducao__imagem {
+        width: 10rem;
+    }
+}
+@media screen and (min-width:1440px) {
+    .skills__items, .hobbies__items{
+        padding: 3rem;
+    }
+}

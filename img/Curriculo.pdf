@@ -1,0 +1,144 @@
+
+<!-- saved from url=(0071)file:///C:/Users/wesle/OneDrive/Documentos/Cursos/Curriculo/index.html# -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Curriculo_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Curriculo_files/reset.css">
+    <link rel="stylesheet" href="./Curriculo_files/style.css">
+    <title>Curriculo</title>
+</head>
+
+<body>
+    <nav class="apresentacao container">
+        <h1 class="apresentacao__nome font-pesado"> <img src="./Curriculo_files/stilizacao-nome.svg" alt="stilizacao"> Wesley Barbosa</h1>
+        <a class="fonte-leve apresentacao__email" href="mailto:wesley401@gmail.com">wesley401@gmail.com</a>
+    </nav>
+    <main>
+        <section class="introducao container">
+            <img class="introducao__imagem" src="./Curriculo_files/wesley.jpg" alt="perfil">
+            <h2 class="font-pesado">Olá, Meu nome é Wesley barbosa e construo páginas web</h2>
+            <p class="fonte-leve">Eu sou formado em JavaScript,css,html e Design-UX,
+                atualmente estou praticando no projeto Oracle ONE na Alura
+                e no programa Recode PRO na Recode
+            </p>
+            <ul class="introducao__social font-pesado">
+                <li><a href="https://github.com/wesley401">Github</a><img src="./Curriculo_files/seta.svg" alt="seta"></li>
+                <li><a href="https://www.linkedin.com/in/wesleybr401/">Linkedin</a><img src="./Curriculo_files/seta.svg" alt="seta"></li>
+                <li><a href="https://www.instagram.com/x_wesley_s/">Instagram</a><img src="./Curriculo_files/seta.svg" alt="seta"></li>
+                <li><a href="file:///C:/Users/wesle/OneDrive/Documentos/Cursos/Curriculo/index.html#">Currículo</a><img src="./Curriculo_files/seta.svg" alt="seta"></li>
+            </ul>
+        </section>
+        <section class="sobre">
+            <div class="container"><h2 class="font-pesado">Sobre mim</h2>
+            <p class="fonte-leve">Moro na Zona Leste São Paulo capital sou casado não tenho filhos e tenho 24.
+                Atualmente estou trabalhando na área de delivery como entregador e buscando me profissionalizar na área de programação,
+                Estou cursando dois programas de educação Recode PRO e Oracle ONE na Alura.
+                Já atuei em projeto em grupo para construção de um aplicativo de impacto social para escolas.
+                Desenvolvi alguns sites sozinho como site web de viagem, jogo da forca, decodificador de texto entre outras experiências em estudo.</p>
+            <img src="./Curriculo_files/assinatura.png" alt="assinatura"></div>
+        </section>
+        <h1 class="font-pesado container">Skills</h1>
+        <section class="skills font-pesado container">
+            <div class="skills__items">
+                <img src="./Curriculo_files/html.svg" alt="">
+                <h3> Html5</h3>
+            </div>
+            <div class="skills__items">
+                <img src="./Curriculo_files/java-script.svg" alt="">
+                <h3>Javascript</h3>
+            </div>
+            <div class="skills__items">
+                <img src="./Curriculo_files/node-js.svg" alt="">
+                <h3>Node JS</h3>
+            </div>
+            <div class="skills__items">
+                <img src="./Curriculo_files/react.svg" alt="">
+                <h3>React</h3>
+            </div>
+            <div class="skills__items">
+                <img src="./Curriculo_files/css.svg" alt="">
+                <h3>CSS</h3>
+            </div>
+            <div class="skills__items">
+                <img style="width: 2rem;" src="./Curriculo_files/c-sharp.png" alt="">
+                <h3>C sharp</h3>
+            </div>
+        </section>
+        <h1 class="font-pesado container">Hobbies</h1>
+        <section class="hobbies font-pesado container">
+            <div class="hobbies__items">
+                <img style="width: 2rem;" src="./Curriculo_files/fitness-icon.png" alt="">
+                <h3>Academia</h3>
+            </div>
+            <div class="hobbies__items">
+                <img src="./Curriculo_files/serie.svg" alt="">
+                <h3>Asistir Series</h3>
+            </div>
+            <div class="hobbies__items">
+                <img src="./Curriculo_files/musica.svg" alt="">
+                <h3>Ouvir musica</h3>
+            </div>
+            <div class="hobbies__items">
+                <img style="width: 2rem;" src="./Curriculo_files/livro.png" alt="">
+                <h3>Estudar</h3>
+            </div>
+        </section>
+        <section class="formacoes font-pesado container">
+            <h1>Formação acadêmica</h1>
+            <div>
+                <img class="formacoes__imagens" src="./Curriculo_files/ux-design.jpg" alt="design">
+                <h3>UX&amp;Design</h3>
+                <p class="fonte-leve">Curso Leandro Rezende | Udemy 2020</p>
+            </div>
+            <div>
+                <img class="formacoes__imagens" src="./Curriculo_files/oracle.jpg.crdownload" alt="design">
+                <h3>FullStack</h3>
+                <p class="fonte-leve">Curso FullStack| Alura 2022</p>
+            </div>
+            <div>
+                <img class="formacoes__imagens" src="./Curriculo_files/recodepro.jpg" alt="design">
+                <h3>FullStack</h3>
+                <p class="fonte-leve">Curso FullStack| Recode Pro 2022</p>
+            </div>
+        </section>
+        <section class="experiencias font-pesado container">
+            <h1>Experiência profissional</h1>
+            <div>
+                <img class="experiencias__imagens" src="./Curriculo_files/projeto-viagens.png" alt="projeto-viagens">
+                <img class="experiencias__imagens" src="./Curriculo_files/projeto-viagens2.png" alt="projeto-viagens2">
+                <h3>Agencia de viagens</h3>
+                <p class="fonte-leve">Projeto modulo-2 da Recode</p>
+                <a class="botao-link" href="https://github.com/wesley401/Projeto-site-de-viagens">Repositorio</a>
+            </div>
+            <div>
+                <img class="experiencias__imagens" src="./Curriculo_files/projeto-codificador.png" alt="projeto-codificador">
+                <img class="experiencias__imagens" src="./Curriculo_files/projeto-codificador2.png" alt="projeto-codificador2">
+                <h3>Codificador de texto</h3>
+                <p class="fonte-leve">Projeto Alura Oracle</p>
+                <a class="botao-link" href="https://github.com/wesley401/challengeAluraCodificador">Repositorio</a>
+            </div>
+        </section>
+        <address class="contato container font-pesado">
+            <h1>Contato</h1>
+            <p class="fonte-leve">Quer entrar em contato comigo?
+                Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                <label for="nome">nome</label>
+                <input type="text" name="" id="nome" placeholder="fulando">
+                <label for="email">email</label>
+                <input type="email" name="" id="email" placeholder="fulando@email.com">
+                <label for="assunto">Assunto</label>
+                <input type="text" name="" id="assunto" placeholder="estou contratando na area de ....">
+                <textarea name="" id="" cols="15" rows="8"></textarea>
+                <button class="botao-contato">Enviar mensagem</button>
+        </address>
+        <footer class="container fonte-pesado">
+            <h1>Desenvolvido por Wesley barbosa 2022</h1>
+        </footer>
+    </main>
+
+
+</body></html>
